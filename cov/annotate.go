@@ -22,7 +22,7 @@ package cov
 
 import (
 	"fmt"
-	"github.com/axw/gocov"
+	"github.com/brandscreen/gocov"
 	"go/token"
 	"html"
 	"io"

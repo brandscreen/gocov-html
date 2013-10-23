@@ -1,9 +1,9 @@
 Gocov HTML export
 =================
 
-This is a simple helper tool for generating HTML output from `axw/gocov`_.
+This is a simple helper tool for generating HTML output from `brandscreen/gocov`_.
 
-.. _axw/gocov: https://github.com/axw/gocov
+.. _axw/gocov: https://github.com/brandscreen/gocov
 
 Here is a screenshot:
 
@@ -18,8 +18,8 @@ Installation
 
 Just type the following to install the program and its dependencies::
 
-    $ go get github.com/axw/gocov/gocov
-    $ go get -u github.com/matm/gocov-html
+    $ go get github.com/brandscreen/gocov/gocov
+    $ go get -u github.com/brandscreen/gocov-html
 
 Usage
 -----
@@ -33,7 +33,7 @@ or::
     $ gocov test net/http > http.json
     $ gocov-html http.json > http.html
 
-The generated HTML content comes along with a default embedded CSS. Use the `-s` 
+The generated HTML content comes along with a default embedded CSS. Use the `-s`
 flag to use a custom stylesheet::
 
     $ gocov test net/http | gocov-html -s mystyle.css > http.html

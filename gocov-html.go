@@ -22,7 +22,7 @@ package main
 
 import (
 	"flag"
-	"github.com/matm/gocov-html/cov"
+	"github.com/brandscreen/gocov-html/cov"
 	"io"
 	"log"
 	"os"
